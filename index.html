@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <h1>Свяжитесь со мной</h1>
+
+        <form action="#" method="get">
+            <div class="field">
+                <img src="./images/message.svg" alt="иконка письма">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Введите Email*" required>
+            </div>
+
+            <div  class="field">
+                <img src="./images/telegram.svg" alt="иконка телеграма">
+                <label for="email2">Telegram</label>
+                <input type="email" name="email2" id="email2" placeholder="Введите свой Telegram">
+            </div>
+
+            <div  class="field">
+                <img src="./images/topic.svg" alt="иконка сообщения">
+                <label for="topic">Тема</label>
+                <select name="topic" id="topic" required>
+                    <option value="cources">Приобретение курсов</option>
+                    <option value="feedback">Обратная связь</option>
+                    <option value="1">Все</option>
+                    <optgroup label="Языки программирования">
+                        <option value="2">Python</option>
+                        <option value="3">C</option>
+                        <option value="4">C++</option>
+                        <option value="5">Java</option>
+                        <option value="6">JavaScript</option>
+                        <option value="7">PHP</option>
+                        <option value="8">Ruby</option>
+                        <option value="9">Go</option>
+                        <option value="10">C#</option>
+                        <option value="11">SQL</option>
+                        <option value="12">Scratch</option>
+                    </optgroup>
+                    <optgroup label="Кулинария">
+                        <option value="13">Выпечка</option>
+                        <option value="14">Сладости</option>
+                        <option value="15">Горячие блюда</option>
+                        <option value="16">Морепродукты</option>
+                        <option value="17">Полуфабрикаты</option>
+                        <option value="18">Злаковые</option>
+                        <option value="19">Мясное</option>
+                    </optgroup>
+                    <optgroup label="Танцы">
+                        <option value="20">Бальные танцы</option>
+                        <option value="21">Хип-хоп</option>
+                        <option value="22">Локкинг</option>
+                        <option value="23">Контемп</option>
+                        <option value="24">Контемпорари</option>
+                        <option value="25">Степ</option>
+                        <option value="26">Вог</option>
+                        <option value="27">Эстрада</option>
+                        <option value="28">Классический танец</option>
+                        <option value="29">Брейк-данс</option>
+                        <option value="30">Тверк</option>
+                        <option value="31">Бачата</option>
+                        <option value="32">Народные</option>
+                        <option value="33">Стрип</option>
+                        <option value="34">Джаз</option>
+                        <option value="35">Восточный</option>
+                        <option value="36">Шафл</option>
+                        <option value="37">поп локкинг</option>
+                        <option value="38">Импровизация</option>
+                        <option value="39">Электро дэнс</option>
+                        <option value="40">Джаз фанк</option>
+                        <option value="41">Леди дэнс</option>
+                        <option value="42">Лезгинка</option>
+                        <option value="43">Фристайл</option>
+                        <option value="44">Сальса</option>
+                        <option value="45">Тектоник</option>
+                        <option value="46">Миша Флоря стайл</option>
+                    </optgroup>
+                    <optgroup label="Домашние питомцы">
+                        <option value="47">Кошки</option>
+                        <option value="48">Собаки</option>
+                        <option value="49">Попугаи</option>
+                        <option value="50">Кролики</option>
+                        <option value="51">Хомяки</option>
+                        <option value="52">Рыбки</option>
+                        <option value="53">Крысы</option>
+                        <option value="54">Шиншилы</option>
+                        <option value="55">Морские свинки</option>
+                        <option value="56">Черепахи</option>
+                        <option value="57">Муравьи</option>
+                        <option value="58">Улитка ахатинка</option>
+                    </optgroup>
+                    <optgroup label="Рисование">
+                        <option value=59"">Акварельный</option>
+                        <option value="60">Масляный</option>
+                        <option value="61">Пастельный</option>
+                        <option value="62">Графический</option>
+                        <option value="63">Гуашь</option>
+                    </optgroup>
+                    <optgroup label="Спорт">
+                        <option value="64">Спортивно-бальные танцы</option>
+                        <option value="65">Велоспорт</option>
+                        <option value="66">Теннис</option>
+                        <option value="67">Настольный теннис</option>
+                        <option value="68">Легкая атлетика</option>
+                        <option value="69">Тяжелая атлетика</option>
+                        <option value="70">Футбол</option>
+                        <option value="71">Волейбол</option>
+                        <option value="72">Баскетбол</option>
+                        <option value="73">Гандбол</option>
+                        <option value="74">Пляжный футбол</option>
+                        <option value="75">Пляжный волейбол</option>
+                        <option value="76">Шахматы</option>
+                        <option value="77">Лыжный спорт</option>
+                        <option value="78">Фигурное катание</option>
+                        <option value="79">Канькобежный спорт</option>
+                        <option value="80">Хоккей</option>
+                        <option value="81">Бокс</option>
+                        <option value="82">Карате</option>
+                        <option value="83">Кикбоксинг</option>
+                        <option value="84">Керлинг</option>
+                        <option value="85">Верховая езда</option>
+                        <option value="86">Киберспорт</option>
+                        <option value="87">Гимнастика</option>
+                        <option value="88">Бейсбол</option>
+                        <option value="89">Регби</option>
+                        <option value="90">Фехтование</option>
+                    </optgroup>
+                    <optgroup label="Наука">
+                        <option value="91">Социология</option>
+                        <option value="92">Политология</option>
+                        <option value="93">Психология</option>
+                        <option value="94">Физика</option>
+                        <option value="95">Математика</option>
+                        <option value="96">Экономика</option>
+                        <option value="97">Химия</option>
+                        <option value="98">Биология</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div  class="field">
+                <label for="text">Комментарий</label>
+                <textarea name="text" id="text" cols="30" rows="4"></textarea>
+            </div>
+
+            <button>Отправить</button>
+        </form>
+
+    </main>
+</body>
+</html>
